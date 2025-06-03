@@ -1,6 +1,7 @@
 describe('Login', () => {
     const modalContent = '.swal2-html-container'
     const toast = 'div[role=status]'
+    var teste="testeGit"
 
     it ('usuário obrigatório', ()=> {
         cy.login(null, 'teste')
