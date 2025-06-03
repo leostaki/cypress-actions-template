@@ -7,7 +7,7 @@ describe('Login', () => {
         cy.get(toast)
             .should('have.text', 'Informe o seu nome de usuário!')
     })
-
+    //camposenha
     it ('senha obrigatória', ()=> {
         cy.login('qa', null)
         cy.get(toast)
