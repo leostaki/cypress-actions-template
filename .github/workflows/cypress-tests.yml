@@ -15,7 +15,7 @@ jobs:
          uses: actions/checkout@v4.2.2
 
        - name: install dependencies
-         run: yarn cypress run
+         run: yarn install
 
        - name: Run E2E tests
          run: ${{ github.event.inputs.cli }}
