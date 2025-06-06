@@ -18,5 +18,5 @@ jobs:
           group: UI Electron
           spec: cypress/e2e/*
          env:
-          CYPRESS_RECORD_KEY: vvv
+          CYPRESS_RECORD_KEY: fbd3d92c-f1fa-44aa-b715-444fbe42023f
           GIT_HUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
